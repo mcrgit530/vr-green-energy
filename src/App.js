@@ -9,12 +9,12 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Section id="home" >
+      <Section id="home" title="Home">
         <p><strong>Founder & CEO:</strong> D. Venka Reddy</p>
         <p><strong>Cell:</strong> 81849 91033</p>
       </Section>
       
-      <div className="bg-gray-100 py-8 px-8">
+      <div className="bg-gray-100 py-8 px-4">
         <h2 className="text-2xl font-semibold mb-4">About Solar Energy</h2>
         <p>Solar energy is a renewable energy source that can be harnessed to generate electricity, provide hot water, and power various devices. It is a clean and sustainable way to meet energy needs without harming the environment.</p>
       </div>
@@ -23,7 +23,7 @@ const App = () => {
         <Services />
       </Section>
       
-      <div className="bg-gray-100 py-8 px-8">
+      <div className="bg-gray-100 py-8 px-4">
         <h2 className="text-2xl font-semibold mb-4">Benefits of Solar Energy</h2>
         <p>Using solar energy can significantly reduce electricity bills, lower carbon footprint, and increase energy independence. It's a wise investment for the future and contributes to a healthier planet.</p>
       </div>
