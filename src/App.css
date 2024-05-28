@@ -19,7 +19,38 @@
 
 .card-container {
   padding: 20px;
-  display: flex;
+  display: flex;html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+h2 {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .section-content {
+    padding: 0 16px;
+  }
+}
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
