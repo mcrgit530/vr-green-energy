@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="App bg-gradient-to-b from-yellow-200 to-yellow-500">
       <Header />
-      <Section id="home" title="Home" className="bg-gradient-to-b from-yellow-200 to-yellow-500">
+      <Section id="home"  className="bg-gradient-to-b from-yellow-200 to-yellow-500">
         <p><strong>Founder & CEO:</strong> D. Venka Reddy</p>
         <p><strong>Cell:</strong> 81849 91033</p>
       </Section>
