@@ -1,12 +1,11 @@
-// Section.js
 import React from 'react';
 
 const Section = ({ id, title, children }) => {
   return (
-    <div id={id} className="min-h-screen flex flex-col justify-center items-center p-8 bg-gray-100">
-      <h2 className="text-3xl font-bold mb-8">{title}</h2>
+    <div id={id} className="py-16 px-8">
+      <h2 className="text-3xl font-bold mb-4">{title}</h2>
       <div className="section-content">
-        <p>{children}</p>
+        {children}
       </div>
     </div>
   );
