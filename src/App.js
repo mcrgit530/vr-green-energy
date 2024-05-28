@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="App">
       <Header />
-      <Section id="home" title="Home">
+      <Section id="home" >
         <p><strong>Founder & CEO:</strong> D. Venka Reddy</p>
         <p><strong>Cell:</strong> 81849 91033</p>
       </Section>
